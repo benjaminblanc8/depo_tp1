@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+preview = true
+extend-select = ["E", "F", "W", "I"]
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS"
+addopts = [
+    "--doctest-modules",
+]
+
+[tool.mypy]
+exclude = ["test_", "conftest.py"]
