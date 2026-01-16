@@ -91,4 +91,7 @@
         "reportUnusedVariable": false,
         "reportWildcardImportFromLibrary": false,
     },
+    "python.autoComplete.extraPaths": [
+        "/home/onyxia/.local/share/code-server/extensions/continue.continue-0.0.412-linux-x64"
+    ],
 }
